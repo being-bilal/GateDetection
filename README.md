@@ -10,6 +10,3 @@
 
 * Dataset : https://www.kaggle.com/datasets/mobilal14/sauvc-dataset
 * models : https://huggingface.co/Bilal1410/GateDetection-model
-
-## Repository Structure
-
