@@ -1,0 +1,23 @@
+{
+    "PID": {
+        "Kp": 0.7,
+        "Ki": 0.0,
+        "Kd": 0.1
+    },
+    "Obstacle_HSV": {
+        "H_low": 0,
+        "H_high": 10,
+        "S_low": 120,
+        "S_high": 255,
+        "V_low": 70,
+        "V_high": 255
+    },
+    "Gate_HSV": {
+        "H_low": 40,
+        "H_high": 85,
+        "S_low": 80,
+        "S_high": 255,
+        "V_low": 70,
+        "V_high": 255
+    }
+}

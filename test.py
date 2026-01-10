@@ -5,21 +5,19 @@ import pandas as pd
 from ultralytics import YOLO
 import matplotlib.pyplot as plt
 
-# ---------------- CONFIG ---------------- #
 MODELS_DIR = "models"
 DATA_YAML = "data.yaml"
 TEST_IMAGES = "test_images"
 OUTPUT_DIR = "eval_outputs"
-CONF = 0.25
+CONF = 0.5
 IOU = 0.5
 IMG_SIZE = 640
-DEVICE = "cpu"   # or "cuda"
+DEVICE = "cuda"   
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 VIS_DIR = os.path.join(OUTPUT_DIR, "visuals")
 os.makedirs(VIS_DIR, exist_ok=True)
 
-# ---------------------------------------- #
 
 results_table = []
 
